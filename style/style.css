@@ -33,21 +33,14 @@ body {
 }
 
 .sec-1 {
-    margin: 10px 0 0 0;
+    display: flex;
+    flex-direction: row;
+    width: 75%;
 }
 
-.skls {
-    display: flex;
-    justify-content: space-between;
+.sec-1A {
+    justify-content: right;
+    width: 24vw;
+    
 }
-.skl-col {
-    width: 48%;
-}
-.skl-bar {
-    background-color: #333;
-    height: 20px;
-    margin-bottom: 10px;
-}
-.skl-lvl {
-    height: 100%;
-}
+
