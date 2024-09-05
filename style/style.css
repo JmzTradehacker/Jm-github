@@ -1,12 +1,25 @@
+body {
+    margin: 0;
+}
+
 .cont {
-    max-width: 800px;
-    margin: auto;
-    background: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 98vw;
+    height: fit-content;
+    margin: 0;
+    background: #272727;
     padding: 20px;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    color: #fff;
 }
 
 .hdr {
+    display: inline;
+}
+
+.hdr-2 {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -16,4 +29,25 @@
 .hdr img {
     width: auto;
     height: 150px;
+    border-radius: 100%;
+}
+
+.sec-1 {
+    margin: 10px 0 0 0;
+}
+
+.skls {
+    display: flex;
+    justify-content: space-between;
+}
+.skl-col {
+    width: 48%;
+}
+.skl-bar {
+    background-color: #333;
+    height: 20px;
+    margin-bottom: 10px;
+}
+.skl-lvl {
+    height: 100%;
 }
